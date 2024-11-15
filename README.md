@@ -1,23 +1,7 @@
 # vrcfox
 a minimalistic furry avatar for vrchat
 
-![avatar screenshot](screenshot.png)
-
-## Get ⬇️
-
-### [Use public test avatar >>>](https://vrchat.com/home/avatar/avtr_935bce4d-b613-4658-8f0c-057c62b4eb41)
-
-### [Sketchfab preview >>>](https://sketchfab.com/3d-models/low-poly-fox-f46335a0a8064fb484712d2d228f3b14)
-
-### [Download files >>>](https://github.com/cellomonster/vrcfox/releases/latest) 
-(choose version and download 'source code' zip!)
-
-## Strakacher's fork ⭐
-A fork that comes with a body mesh, extra clothes meshes, and many other additional customization options! 
-### [Fork repo >>>](https://github.com/strakacher21/vrcfox-2.3_body_and_cloth_edition)
-
-## A request ⚠️
-Given the license I can't legally stop you, but I'll still ask politely - please do not use this model for pornographic or suggestive content.
+## [Download >>>](https://github.com/cellomonster/vrcfox/releases/latest) (choose version and download 'source code' zip!)
 
 ## Customization
 
@@ -32,6 +16,10 @@ A script to easily export the model to Unity is included in the Blender file. It
 The Unity project contains an 'avatar setup base' prefab and two scenes for Quest and PC. Changes made to the prefab will propogate to both the PC and Quest verions of the avatar, while changes made to the Quest/PC scenes are platform specific. 
 
 The Unity project also includes a script (attached to the avatar prefab) to easily customize facial expressions, player preferences, and facetracking features. You can disable some features to save on VRChat parameter budget or add your own blendshapes for expressions, body customization, clothing toggles, facetracking, etc.
+
+## A request
+
+Given the license I can't legally stop you, but I'll still ask politely - please do not use this model for pornographic or suggestive content.
 
 ## Attribution
 - I'm using [hai-vr's av3-animator-as-code package](https://github.com/hai-vr/av3-animator-as-code) to set up animators
