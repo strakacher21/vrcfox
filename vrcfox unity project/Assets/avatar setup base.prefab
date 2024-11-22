@@ -683,8 +683,6 @@ MonoBehaviour:
   createFaceTracking: 1
   ftPrefix: v2/
   ftShapes:
-  - BrowDownLeft
-  - BrowUpLeft
   - JawOpen
   - LipFunnel
   - LipPucker
