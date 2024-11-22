@@ -714,7 +714,7 @@ MonoBehaviour:
     minShapeName: EyeClosed
     maxShapeName: EyeWide
     minValue: 0
-    neutralValue: 0.7
+    neutralValue: 0.75
     maxValue: 1
 --- !u!1 &7658763880357221846
 GameObject:
