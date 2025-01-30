@@ -19,6 +19,26 @@ MonoBehaviour:
     saved: 1
     defaultValue: 0
     networkSynced: 1
+  - name: v2/ExpressionTrackingActive
+    valueType: 2
+    saved: 1
+    defaultValue: 1
+    networkSynced: 1
+  - name: LipSyncTrackingActive
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+    networkSynced: 1
+  - name: FaceToggleActive
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+    networkSynced: 1
+  - name: v2/Reset
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+    networkSynced: 1
   - name: pref/toggle/breasts
     valueType: 2
     saved: 1
@@ -104,26 +124,6 @@ MonoBehaviour:
     saved: 0
     defaultValue: 0
     networkSynced: 1
-  - name: v2/MouthUpperUpRight
-    valueType: 1
-    saved: 0
-    defaultValue: 0
-    networkSynced: 1
-  - name: v2/MouthUpperUpLeft
-    valueType: 1
-    saved: 0
-    defaultValue: 0
-    networkSynced: 1
-  - name: v2/MouthLowerDownRight
-    valueType: 1
-    saved: 0
-    defaultValue: 0
-    networkSynced: 1
-  - name: v2/MouthLowerDownLeft
-    valueType: 1
-    saved: 0
-    defaultValue: 0
-    networkSynced: 1
   - name: v2/MouthRaiserLower
     valueType: 1
     saved: 0
@@ -134,17 +134,32 @@ MonoBehaviour:
     saved: 0
     defaultValue: 0
     networkSynced: 1
-  - name: v2/JawX
-    valueType: 1
-    saved: 0
-    defaultValue: 0
-    networkSynced: 1
   - name: v2/BrowExpressionRight
     valueType: 1
     saved: 0
     defaultValue: 0
     networkSynced: 1
   - name: v2/BrowExpressionLeft
+    valueType: 1
+    saved: 0
+    defaultValue: 0
+    networkSynced: 1
+  - name: v2/JawX
+    valueType: 1
+    saved: 0
+    defaultValue: 0
+    networkSynced: 1
+  - name: v2/MouthX
+    valueType: 1
+    saved: 0
+    defaultValue: 0
+    networkSynced: 1
+  - name: v2/MouthUpperX
+    valueType: 1
+    saved: 0
+    defaultValue: 0
+    networkSynced: 1
+  - name: v2/MouthLowerX
     valueType: 1
     saved: 0
     defaultValue: 0

@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
   m_Name: menu prefs
   m_EditorClassIdentifier: 
+  Parameters: {fileID: 11400000, guid: 9765ee41bce474b45a4a3d7a0e334283, type: 2}
   controls:
   - name: <b>Ears
-    icon: {fileID: 10912, guid: 0000000000000000f000000000000000, type: 0}
+    icon: {fileID: 2800000, guid: eb02ffa6eee1836469de24d2ad7954e2, type: 3}
     type: 203
     parameter:
       name: 
@@ -25,7 +26,7 @@ MonoBehaviour:
     - name: pref/slider/ears
     labels: []
   - name: <b>Cheeks
-    icon: {fileID: 10912, guid: 0000000000000000f000000000000000, type: 0}
+    icon: {fileID: 2800000, guid: eb02ffa6eee1836469de24d2ad7954e2, type: 3}
     type: 203
     parameter:
       name: 
@@ -36,7 +37,7 @@ MonoBehaviour:
     - name: pref/slider/fluff
     labels: []
   - name: <b>Eyelashes
-    icon: {fileID: 10912, guid: 0000000000000000f000000000000000, type: 0}
+    icon: {fileID: 2800000, guid: eb02ffa6eee1836469de24d2ad7954e2, type: 3}
     type: 102
     parameter:
       name: pref/toggle/lashes
@@ -46,7 +47,7 @@ MonoBehaviour:
     subParameters: []
     labels: []
   - name: <b>Breasts
-    icon: {fileID: 10912, guid: 0000000000000000f000000000000000, type: 0}
+    icon: {fileID: 2800000, guid: eb02ffa6eee1836469de24d2ad7954e2, type: 3}
     type: 102
     parameter:
       name: pref/toggle/breasts
@@ -56,7 +57,7 @@ MonoBehaviour:
     subParameters: []
     labels: []
   - name: <b>Legs
-    icon: {fileID: 10912, guid: 0000000000000000f000000000000000, type: 0}
+    icon: {fileID: 2800000, guid: eb02ffa6eee1836469de24d2ad7954e2, type: 3}
     type: 203
     parameter:
       name: 
@@ -67,7 +68,7 @@ MonoBehaviour:
     - name: pref/slider/thighs
     labels: []
   - name: <b>Torso
-    icon: {fileID: 10912, guid: 0000000000000000f000000000000000, type: 0}
+    icon: {fileID: 2800000, guid: eb02ffa6eee1836469de24d2ad7954e2, type: 3}
     type: 203
     parameter:
       name: 
@@ -78,7 +79,7 @@ MonoBehaviour:
     - name: pref/slider/torso
     labels: []
   - name: <b>Arms
-    icon: {fileID: 10912, guid: 0000000000000000f000000000000000, type: 0}
+    icon: {fileID: 2800000, guid: eb02ffa6eee1836469de24d2ad7954e2, type: 3}
     type: 203
     parameter:
       name: 

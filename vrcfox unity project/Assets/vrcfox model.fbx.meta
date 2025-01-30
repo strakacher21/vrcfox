@@ -42,7 +42,7 @@ ModelImporter:
       takeName: rig|hand 0 neutral
       internalID: -323290640565089156
       firstFrame: 0
-      lastFrame: 0
+      lastFrame: 0.1
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -71,7 +71,7 @@ ModelImporter:
       takeName: rig|hand 1 fist
       internalID: 1812292174531892778
       firstFrame: 0
-      lastFrame: 0
+      lastFrame: 0.1
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -100,7 +100,7 @@ ModelImporter:
       takeName: rig|hand 2 open
       internalID: -6936282357973609983
       firstFrame: 0
-      lastFrame: 0
+      lastFrame: 0.1
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -129,7 +129,7 @@ ModelImporter:
       takeName: rig|hand 3 point
       internalID: 6345884184507438519
       firstFrame: 0
-      lastFrame: 0
+      lastFrame: 0.1
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -158,7 +158,7 @@ ModelImporter:
       takeName: rig|hand 4 peace
       internalID: -597605664110973857
       firstFrame: 0
-      lastFrame: 0
+      lastFrame: 0.1
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -187,7 +187,7 @@ ModelImporter:
       takeName: rig|hand 5 rock n roll
       internalID: 5224918019115096257
       firstFrame: 0
-      lastFrame: 0
+      lastFrame: 0.1
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -216,7 +216,7 @@ ModelImporter:
       takeName: rig|hand 6 gun
       internalID: 7338417288294162353
       firstFrame: 0
-      lastFrame: 0
+      lastFrame: 0.1
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -245,7 +245,7 @@ ModelImporter:
       takeName: rig|hand 7 thumbs up
       internalID: 5305558247662170596
       firstFrame: 0
-      lastFrame: 0
+      lastFrame: 0.1
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -274,7 +274,7 @@ ModelImporter:
       takeName: rig|showcase pose
       internalID: 327038236460324731
       firstFrame: 0
-      lastFrame: 0
+      lastFrame: 0.1
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
