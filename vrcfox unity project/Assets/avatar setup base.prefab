@@ -753,6 +753,8 @@ MonoBehaviour:
   - LipFunnel
   - LipPucker
   - MouthClosed
+  - MouthUpperUp
+  - MouthLowerDown
   - MouthStretch
   - MouthRaiserLower
   ftDualShapes:
@@ -768,27 +770,15 @@ MonoBehaviour:
     minValue: -1
     neutralValue: 0
     maxValue: 1
-  - paramName: JawX
-    minShapeName: JawLeft
-    maxShapeName: JawRight
-    minValue: -1
-    neutralValue: 0
-    maxValue: 1
   - paramName: MouthX
     minShapeName: MouthLeft
     maxShapeName: MouthRight
     minValue: -1
     neutralValue: 0
     maxValue: 1
-  - paramName: MouthUpperX
-    minShapeName: MouthUpperUpLeft
-    maxShapeName: MouthUpperUpRight
-    minValue: -1
-    neutralValue: 0
-    maxValue: 1
-  - paramName: MouthLowerX
-    minShapeName: MouthLowerDownLeft
-    maxShapeName: MouthLowerDownRight
+  - paramName: JawX
+    minShapeName: JawLeft
+    maxShapeName: JawRight
     minValue: -1
     neutralValue: 0
     maxValue: 1
@@ -2538,7 +2528,7 @@ MonoBehaviour:
     isDefault: 1
   - isEnabled: 0
     type: 5
-    animatorController: {fileID: 9100000, guid: e670d4102b561d543b6c3c18b8cf1e77,
+    animatorController: {fileID: 9100000, guid: 203c397c7b9f84f4989ca665e596de1f,
       type: 2}
     mask: {fileID: 31900000, guid: a2a2b3490f538480bbd472b54282c586, type: 2}
     isDefault: 0
