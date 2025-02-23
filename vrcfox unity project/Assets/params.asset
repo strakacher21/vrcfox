@@ -29,11 +29,6 @@ MonoBehaviour:
     saved: 1
     defaultValue: 0
     networkSynced: 1
-  - name: FaceToggleActive
-    valueType: 2
-    saved: 0
-    defaultValue: 0
-    networkSynced: 1
   - name: v2/Reset
     valueType: 2
     saved: 0
@@ -119,12 +114,22 @@ MonoBehaviour:
     saved: 0
     defaultValue: 0
     networkSynced: 1
-  - name: v2/MouthUpperUp
+  - name: v2/MouthUpperUpRight
     valueType: 1
     saved: 0
     defaultValue: 0
     networkSynced: 1
-  - name: v2/MouthLowerDown
+  - name: v2/MouthUpperUpLeft
+    valueType: 1
+    saved: 0
+    defaultValue: 0
+    networkSynced: 1
+  - name: v2/MouthLowerDownRight
+    valueType: 1
+    saved: 0
+    defaultValue: 0
+    networkSynced: 1
+  - name: v2/MouthLowerDownLeft
     valueType: 1
     saved: 0
     defaultValue: 0

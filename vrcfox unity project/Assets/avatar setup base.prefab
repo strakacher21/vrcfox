@@ -670,8 +670,6 @@ MonoBehaviour:
   shapePreferenceTogglesPrefix: pref/toggle/
   createClothCustomization: 0
   ClothTogglesPrefix: cloth/toggle/
-  ClothAdjustPrefix: cloth/adjust/
-  ClothAdjustBodyPrefix: cloth/adjust/Body/with/
   createColorCustomization: 1
   primaryColor0: {fileID: 7400000, guid: 8421033fab3bd4941a54cc533287898b, type: 2}
   primaryColor1: {fileID: 7400000, guid: 1ee5d60bcc1f77a47b1e79f2944139e3, type: 2}
@@ -753,8 +751,8 @@ MonoBehaviour:
   - LipFunnel
   - LipPucker
   - MouthClosed
-  - MouthUpperUp
-  - MouthLowerDown
+  - MouthUpperUpLeft
+  - MouthLowerDownLeft
   - MouthStretch
   - MouthRaiserLower
   ftDualShapes:
@@ -2530,7 +2528,7 @@ MonoBehaviour:
     type: 5
     animatorController: {fileID: 9100000, guid: 203c397c7b9f84f4989ca665e596de1f,
       type: 2}
-    mask: {fileID: 31900000, guid: a2a2b3490f538480bbd472b54282c586, type: 2}
+    mask: {fileID: 0}
     isDefault: 0
   specialAnimationLayers:
   - isEnabled: 0

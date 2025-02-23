@@ -154,7 +154,7 @@ PrefabInstance:
     - target: {fileID: 4518591563733791310, guid: 4660207665e831c499dc076459e49c32,
         type: 3}
       propertyPath: blueprintId
-      value: avtr_e887237e-f822-4141-825c-dbf52078c14e
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 4518591563733791310, guid: 4660207665e831c499dc076459e49c32,
         type: 3}

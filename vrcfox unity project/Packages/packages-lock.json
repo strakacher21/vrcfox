@@ -224,8 +224,20 @@
       },
       "hash": "01659457d8f0db619c97356c684682a472bb6dd1"
     },
-    "dev.vrlabs.av3manager": {
-      "version": "file:dev.vrlabs.av3manager",
+    "dev.hai-vr.animator-as-code.v1": {
+      "version": "file:dev.hai-vr.animator-as-code.v1",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "dev.hai-vr.animator-as-code.v1.vrchat": {
+      "version": "file:dev.hai-vr.animator-as-code.v1.vrchat",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "dev.hai-vr.animator-as-code.v1.vrchat-destructive-workflow": {
+      "version": "file:dev.hai-vr.animator-as-code.v1.vrchat-destructive-workflow",
       "depth": 0,
       "source": "embedded",
       "dependencies": {}
