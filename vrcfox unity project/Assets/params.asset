@@ -24,14 +24,9 @@ MonoBehaviour:
     saved: 1
     defaultValue: 1
     networkSynced: 1
-  - name: LipSyncTrackingActive
+  - name: v2/LipSyncTrackingActive
     valueType: 2
     saved: 1
-    defaultValue: 0
-    networkSynced: 1
-  - name: v2/Reset
-    valueType: 2
-    saved: 0
     defaultValue: 0
     networkSynced: 1
   - name: pref/toggle/breasts
