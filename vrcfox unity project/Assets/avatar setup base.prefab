@@ -644,8 +644,8 @@ MonoBehaviour:
   EyeLeftMask: {fileID: 31900000, guid: 66094741a9a9e9a4eb478890a4125eb4, type: 2}
   EyeRightMask: {fileID: 31900000, guid: a20dbdd41a7b0424aac0c38f843b59e8, type: 2}
   gestureMask: {fileID: 31900000, guid: 2c544c8b584d741bdb884b8f910e8b64, type: 2}
-  lMask: {fileID: 31900000, guid: 2ea11c35275506a4fbf628a11c068a8e, type: 2}
-  rMask: {fileID: 31900000, guid: 00b67f2d2f7eba8438148317288155d8, type: 2}
+  GestureLeftMask: {fileID: 31900000, guid: ee1051356e14f8141b499385836b02bf, type: 2}
+  GestureRightMask: {fileID: 31900000, guid: 9b02b84ec14cb9941acd896d4a23bb4c, type: 2}
   MirrorHandposes: 1
   LeftHandPoses:
   - {fileID: 7400000, guid: 17f6811ad8fbaec4ba758c0e9d4bc63e, type: 2}
@@ -679,16 +679,13 @@ MonoBehaviour:
   expTrackName: ExpressionTrackingActive
   createFTLipSyncControl: 1
   lipSyncName: LipSyncTrackingActive
-  createFaceToggleControl: 0
-  faceToggleName: FaceToggleActive
-  createFTreset: 0
-  resetFTName: Reset
   saveVRCExpressionParameters: 0
   MirrorFTparams: 1
   createOSCsmooth: 1
-  IsLocal: 0
   localSmoothness: 0.1
   remoteSmoothness: 0.7
+  createFaceTracking: 1
+  FullFaceTrackingPrefix: v2/
   createEyeTracking: 1
   MirrorEyeposes: 1
   maxEyeMotionValue: 0.25
@@ -744,8 +741,8 @@ MonoBehaviour:
   - shoes
   - boots
   - slaps
-  createFaceTracking: 1
-  ftPrefix: v2/
+  createFaceToggle: 0
+  FaceToggleNames: []
   ftShapes:
   - JawOpen
   - LipFunnel
@@ -2396,7 +2393,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: 
-  ViewPosition: {x: 0, y: 1.620182, z: 0.04}
+  ViewPosition: {x: 0, y: 1.62, z: 0.04}
   Animations: 0
   ScaleIPD: 1
   lipSync: 3
@@ -2509,13 +2506,13 @@ MonoBehaviour:
     isDefault: 0
   - isEnabled: 0
     type: 2
-    animatorController: {fileID: 9100000, guid: f1cbab5787cc05d409272b7e2e7fa971,
+    animatorController: {fileID: 9100000, guid: 40d175596b5ae7a45bd5a496dcc4f741,
       type: 2}
     mask: {fileID: 0}
     isDefault: 0
   - isEnabled: 0
     type: 3
-    animatorController: {fileID: 9100000, guid: 4df7674ab600e184f943a422fd71c343,
+    animatorController: {fileID: 9100000, guid: 5a98d29e949755040ab314fc5951aa8d,
       type: 2}
     mask: {fileID: 31900000, guid: 2c544c8b584d741bdb884b8f910e8b64, type: 2}
     isDefault: 0
@@ -2526,9 +2523,9 @@ MonoBehaviour:
     isDefault: 1
   - isEnabled: 0
     type: 5
-    animatorController: {fileID: 9100000, guid: 203c397c7b9f84f4989ca665e596de1f,
+    animatorController: {fileID: 9100000, guid: af4f201717cccf142abca2909cef76cd,
       type: 2}
-    mask: {fileID: 0}
+    mask: {fileID: 31900000, guid: a2a2b3490f538480bbd472b54282c586, type: 2}
     isDefault: 0
   specialAnimationLayers:
   - isEnabled: 0

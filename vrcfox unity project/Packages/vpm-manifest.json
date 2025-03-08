@@ -18,8 +18,11 @@
     "dev.vrlabs.av3manager": {
       "version": "2.0.34"
     },
+    "com.vrchat.base": {
+      "version": "3.7.6"
+    },
     "com.vrchat.avatars": {
-      "version": "3.7.6-beta.2"
+      "version": "3.7.6"
     }
   },
   "locked": {
@@ -57,15 +60,15 @@
         "com.vrchat.avatars": "3.2 - 3.7"
       }
     },
-    "com.vrchat.avatars": {
-      "version": "3.7.6-beta.2",
-      "dependencies": {
-        "com.vrchat.base": "3.7.6-beta.2"
-      }
-    },
     "com.vrchat.base": {
-      "version": "3.7.6-beta.2",
+      "version": "3.7.6",
       "dependencies": {}
+    },
+    "com.vrchat.avatars": {
+      "version": "3.7.6",
+      "dependencies": {
+        "com.vrchat.base": "3.7.6"
+      }
     }
   }
 }
