@@ -3,8 +3,8 @@ import bpy
 import os
 
 # Export settings
-export_path = bpy.path.abspath(r"//vrcfox unity project (B&C)/Assets")
-file_name = "vrcfox model (B&C).fbx"
+export_path = bpy.path.abspath(r"//vrcfox unity project/Assets")
+file_name = "vrcfox model.fbx"
 desired_model_name = "Body"
 export_uv_map = "ColorMap" # ColorMap / UVMap
 export_vertex_colors = True # True / False
@@ -62,6 +62,11 @@ if bpy.context.selected_objects:
     else:
         raise ValueError(f"UV map '{export_uv_map}' not found.")
 
+    # Simplified normals setup
+    me = obj.data
+    if hasattr(me, "calc_normals_split"):
+        me.calc_normals_split()
+
     # Set 'main' collection as active
     export_layer_collection = bpy.context.view_layer.layer_collection.children[export_collection_name]
     bpy.context.view_layer.active_layer_collection = export_layer_collection
@@ -81,7 +86,9 @@ if bpy.context.selected_objects:
         colors_type="LINEAR" if export_vertex_colors else "NONE",
         #add_leaf_bones=False,
         use_armature_deform_only=True,
-        use_triangles=False
+        use_triangles=False,
+		mesh_smooth_type='EDGE',
+		use_tspace=True
     )
 
     bpy.ops.ed.undo_push()
