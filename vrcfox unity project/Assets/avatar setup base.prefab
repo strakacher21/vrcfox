@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7746804780396034587}
   - component: {fileID: 8116406995935481988}
   - component: {fileID: 5824838411998035675}
+  - component: {fileID: 6413712765106864611}
   m_Layer: 0
   m_Name: avatar setup base
   m_TagString: Untagged
@@ -226,6 +227,19 @@ MonoBehaviour:
     minValue: 0
     neutralValue: 0.75
     maxValue: 1
+--- !u!114 &6413712765106864611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4518591562910165925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0722284fee9817b45ac70aa8393037e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  config: {fileID: 11400000, guid: 542e5c5b9a345a04886c6bb57342fc5e, type: 2}
 --- !u!1001 &556617311820632454
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -630,6 +644,7 @@ MonoBehaviour:
   collisionFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   radius: 0.001
   radiusCurve:
     serializedVersion: 2
@@ -677,10 +692,12 @@ MonoBehaviour:
   grabFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   allowPosing: 0
   poseFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   snapToHand: 0
   grabMovement: 0.5
   maxStretch: 0
@@ -748,6 +765,7 @@ MonoBehaviour:
   position: {x: 0, y: 0.002, z: -0.0002}
   rotation: {x: 0, y: 0, z: 0, w: 1}
   bonesAsSpheres: 0
+  globalCollisionFlags: 0
 --- !u!4 &1307256826819938939 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3211361471223265328, guid: d4bf82d2ccd2e46e2b24a85ff543f3af,
@@ -834,6 +852,7 @@ MonoBehaviour:
   collisionFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   radius: 0.0006
   radiusCurve:
     serializedVersion: 2
@@ -880,10 +899,12 @@ MonoBehaviour:
   grabFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   allowPosing: 0
   poseFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   snapToHand: 0
   grabMovement: 0.5
   maxStretch: 0
@@ -999,6 +1020,7 @@ MonoBehaviour:
   collisionFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   radius: 0.001
   radiusCurve:
     serializedVersion: 2
@@ -1046,10 +1068,12 @@ MonoBehaviour:
   grabFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   allowPosing: 0
   poseFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   snapToHand: 0
   grabMovement: 0.5
   maxStretch: 0
@@ -1123,6 +1147,7 @@ MonoBehaviour:
   position: {x: 0, y: 0.003, z: 0}
   rotation: {x: 0, y: 0, z: 0, w: 1}
   bonesAsSpheres: 0
+  globalCollisionFlags: 0
 --- !u!1 &2636341343699458907 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1883464989273762064, guid: d4bf82d2ccd2e46e2b24a85ff543f3af,
@@ -1203,6 +1228,7 @@ MonoBehaviour:
   collisionFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   radius: 0.0005
   radiusCurve:
     serializedVersion: 2
@@ -1249,10 +1275,12 @@ MonoBehaviour:
   grabFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   allowPosing: 2
   poseFilter:
     allowSelf: 1
     allowOthers: 0
+    contentTypes: -1
   snapToHand: 0
   grabMovement: 0.5
   maxStretch: 0
@@ -1362,6 +1390,7 @@ MonoBehaviour:
   collisionFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   radius: 0.001
   radiusCurve:
     serializedVersion: 2
@@ -1411,10 +1440,12 @@ MonoBehaviour:
   grabFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   allowPosing: 2
   poseFilter:
     allowSelf: 1
     allowOthers: 0
+    contentTypes: -1
   snapToHand: 0
   grabMovement: 1
   maxStretch: 0
@@ -1476,6 +1507,7 @@ MonoBehaviour:
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0.70710677, y: 0, z: 0, w: 0.70710677}
   bonesAsSpheres: 0
+  globalCollisionFlags: 0
 --- !u!1 &3442383294063726495 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1256660736965721556, guid: d4bf82d2ccd2e46e2b24a85ff543f3af,
@@ -1556,6 +1588,7 @@ MonoBehaviour:
   collisionFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   radius: 0.0005
   radiusCurve:
     serializedVersion: 2
@@ -1602,10 +1635,12 @@ MonoBehaviour:
   grabFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   allowPosing: 2
   poseFilter:
     allowSelf: 1
     allowOthers: 0
+    contentTypes: -1
   snapToHand: 0
   grabMovement: 0.5
   maxStretch: 0
@@ -2070,6 +2105,7 @@ MonoBehaviour:
   position: {x: 0, y: 0.003, z: 0}
   rotation: {x: 0, y: 0, z: 0, w: 1}
   bonesAsSpheres: 0
+  globalCollisionFlags: 0
 --- !u!4 &7139539231766666650 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6746953046552948689, guid: d4bf82d2ccd2e46e2b24a85ff543f3af,
@@ -2108,6 +2144,7 @@ MonoBehaviour:
   position: {x: 0, y: 0.002, z: -0.0002}
   rotation: {x: 0, y: 0, z: 0, w: 1}
   bonesAsSpheres: 0
+  globalCollisionFlags: 0
 --- !u!4 &7771433182525227463 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6155556853262873484, guid: d4bf82d2ccd2e46e2b24a85ff543f3af,

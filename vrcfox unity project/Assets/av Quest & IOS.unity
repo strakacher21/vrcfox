@@ -436,9 +436,16 @@ PrefabInstance:
       propertyPath: animationHashSet.Array.data[37].name
       value: OSCmooth_Net
       objectReference: {fileID: 0}
+    - target: {fileID: 6413712765106864611, guid: 4660207665e831c499dc076459e49c32,
+        type: 3}
+      propertyPath: config
+      value: 
+      objectReference: {fileID: 11400000, guid: a34db726c3f24de4190f5b11507afb7e,
+        type: 2}
     m_RemovedComponents:
     - {fileID: 1095260305555760941, guid: 4660207665e831c499dc076459e49c32, type: 3}
     - {fileID: -5573511407951695624, guid: 4660207665e831c499dc076459e49c32, type: 3}
+    - {fileID: 6413712765106864611, guid: 4660207665e831c499dc076459e49c32, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
