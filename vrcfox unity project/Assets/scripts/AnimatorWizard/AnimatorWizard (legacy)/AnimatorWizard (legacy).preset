@@ -1,0 +1,608 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: AnimatorWizard (legacy)
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: f6fef40173b344a40bf1466cc9c93393,
+      type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: assetContainer
+    value: 
+    objectReference: {fileID: 9100000, guid: a33c5817a0ccd554595fad701f7d25e6, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fxMask
+    value: 
+    objectReference: {fileID: 31900000, guid: a2a2b3490f538480bbd472b54282c586, type: 2}
+  - target: {fileID: 0}
+    propertyPath: EyeLeftMask
+    value: 
+    objectReference: {fileID: 31900000, guid: 66094741a9a9e9a4eb478890a4125eb4, type: 2}
+  - target: {fileID: 0}
+    propertyPath: EyeRightMask
+    value: 
+    objectReference: {fileID: 31900000, guid: a20dbdd41a7b0424aac0c38f843b59e8, type: 2}
+  - target: {fileID: 0}
+    propertyPath: gestureMask
+    value: 
+    objectReference: {fileID: 31900000, guid: 2c544c8b584d741bdb884b8f910e8b64, type: 2}
+  - target: {fileID: 0}
+    propertyPath: GestureLeftMask
+    value: 
+    objectReference: {fileID: 31900000, guid: ee1051356e14f8141b499385836b02bf, type: 2}
+  - target: {fileID: 0}
+    propertyPath: GestureRightMask
+    value: 
+    objectReference: {fileID: 31900000, guid: 9b02b84ec14cb9941acd896d4a23bb4c, type: 2}
+  - target: {fileID: 0}
+    propertyPath: MirrorHandposes
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: LeftHandPoses.Array.size
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: LeftHandPoses.Array.data[0]
+    value: 
+    objectReference: {fileID: 7400000, guid: 17f6811ad8fbaec4ba758c0e9d4bc63e, type: 2}
+  - target: {fileID: 0}
+    propertyPath: LeftHandPoses.Array.data[1]
+    value: 
+    objectReference: {fileID: 7400000, guid: 9716ac2dc262b524193365c552868456, type: 2}
+  - target: {fileID: 0}
+    propertyPath: LeftHandPoses.Array.data[2]
+    value: 
+    objectReference: {fileID: 7400000, guid: 2c53e22680d6f644d8f67bf16fc29e04, type: 2}
+  - target: {fileID: 0}
+    propertyPath: LeftHandPoses.Array.data[3]
+    value: 
+    objectReference: {fileID: 7400000, guid: 159b856034800bb4ea0319b1ce4fd8c7, type: 2}
+  - target: {fileID: 0}
+    propertyPath: LeftHandPoses.Array.data[4]
+    value: 
+    objectReference: {fileID: 7400000, guid: 2262c43a626a1664cb4a56f5c791c215, type: 2}
+  - target: {fileID: 0}
+    propertyPath: LeftHandPoses.Array.data[5]
+    value: 
+    objectReference: {fileID: 7400000, guid: d5884289633c17040b3337766473e5f4, type: 2}
+  - target: {fileID: 0}
+    propertyPath: LeftHandPoses.Array.data[6]
+    value: 
+    objectReference: {fileID: 7400000, guid: 17e549f94f6d25f4da19e77f85918ec1, type: 2}
+  - target: {fileID: 0}
+    propertyPath: LeftHandPoses.Array.data[7]
+    value: 
+    objectReference: {fileID: 7400000, guid: be1b6b943c973cc44ba8ca84a47f3273, type: 2}
+  - target: {fileID: 0}
+    propertyPath: RightHandPoses.Array.size
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: RightHandPoses.Array.data[0]
+    value: 
+    objectReference: {fileID: 7400000, guid: 17f6811ad8fbaec4ba758c0e9d4bc63e, type: 2}
+  - target: {fileID: 0}
+    propertyPath: RightHandPoses.Array.data[1]
+    value: 
+    objectReference: {fileID: 7400000, guid: 9716ac2dc262b524193365c552868456, type: 2}
+  - target: {fileID: 0}
+    propertyPath: RightHandPoses.Array.data[2]
+    value: 
+    objectReference: {fileID: 7400000, guid: 2c53e22680d6f644d8f67bf16fc29e04, type: 2}
+  - target: {fileID: 0}
+    propertyPath: RightHandPoses.Array.data[3]
+    value: 
+    objectReference: {fileID: 7400000, guid: 159b856034800bb4ea0319b1ce4fd8c7, type: 2}
+  - target: {fileID: 0}
+    propertyPath: RightHandPoses.Array.data[4]
+    value: 
+    objectReference: {fileID: 7400000, guid: 2262c43a626a1664cb4a56f5c791c215, type: 2}
+  - target: {fileID: 0}
+    propertyPath: RightHandPoses.Array.data[5]
+    value: 
+    objectReference: {fileID: 7400000, guid: d5884289633c17040b3337766473e5f4, type: 2}
+  - target: {fileID: 0}
+    propertyPath: RightHandPoses.Array.data[6]
+    value: 
+    objectReference: {fileID: 7400000, guid: 17e549f94f6d25f4da19e77f85918ec1, type: 2}
+  - target: {fileID: 0}
+    propertyPath: RightHandPoses.Array.data[7]
+    value: 
+    objectReference: {fileID: 7400000, guid: be1b6b943c973cc44ba8ca84a47f3273, type: 2}
+  - target: {fileID: 0}
+    propertyPath: createShapePreferences
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: shapePreferenceSliderPrefix
+    value: pref/slider/
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: shapePreferenceTogglesPrefix
+    value: pref/toggle/
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: createClothCustomization
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ClothTogglesPrefix
+    value: cloth/toggle/
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: createColorCustomization
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: primaryColor0
+    value: 
+    objectReference: {fileID: 7400000, guid: 8421033fab3bd4941a54cc533287898b, type: 2}
+  - target: {fileID: 0}
+    propertyPath: primaryColor1
+    value: 
+    objectReference: {fileID: 7400000, guid: 1ee5d60bcc1f77a47b1e79f2944139e3, type: 2}
+  - target: {fileID: 0}
+    propertyPath: secondColor0
+    value: 
+    objectReference: {fileID: 7400000, guid: de7942e8683b2d34ea22c50b83f37f9b, type: 2}
+  - target: {fileID: 0}
+    propertyPath: secondColor1
+    value: 
+    objectReference: {fileID: 7400000, guid: b7ba98e9f6ffbba43a2ed420efb56037, type: 2}
+  - target: {fileID: 0}
+    propertyPath: createFacialExpressionsControl
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expTrackName
+    value: ExpressionTrackingActive
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: createFTLipSyncControl
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: lipSyncName
+    value: LipSyncTrackingActive
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: saveVRCExpressionParameters
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: SystemName
+    value: vrcfox
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: MirrorFTparams
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: createOSCsmooth
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: localSmoothness
+    value: 0.1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: remoteSmoothness
+    value: 0.7
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: createFaceTracking
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: FullFaceTrackingPrefix
+    value: v2/
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: createEyeTracking
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: MirrorEyeposes
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: maxEyeMotionValue
+    value: 0.25
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: LeftEyePoses.Array.size
+    value: 9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: LeftEyePoses.Array.data[0]
+    value: 
+    objectReference: {fileID: 7400000, guid: 5c80576ab27dbd945877b5f3cef4507d, type: 2}
+  - target: {fileID: 0}
+    propertyPath: LeftEyePoses.Array.data[1]
+    value: 
+    objectReference: {fileID: 7400000, guid: d4e664513d9ec844fa13b7defc63e1df, type: 2}
+  - target: {fileID: 0}
+    propertyPath: LeftEyePoses.Array.data[2]
+    value: 
+    objectReference: {fileID: 7400000, guid: 08552aea481b1c24fb830ce5d7a3f39c, type: 2}
+  - target: {fileID: 0}
+    propertyPath: LeftEyePoses.Array.data[3]
+    value: 
+    objectReference: {fileID: 7400000, guid: 8fbba8befe3f2764ba7a1d911e196e73, type: 2}
+  - target: {fileID: 0}
+    propertyPath: LeftEyePoses.Array.data[4]
+    value: 
+    objectReference: {fileID: 7400000, guid: cf51b81e7c22ab741a2342c0dbb50eba, type: 2}
+  - target: {fileID: 0}
+    propertyPath: LeftEyePoses.Array.data[5]
+    value: 
+    objectReference: {fileID: 7400000, guid: 5c469e0ce68cf7244934d72de20ea51f, type: 2}
+  - target: {fileID: 0}
+    propertyPath: LeftEyePoses.Array.data[6]
+    value: 
+    objectReference: {fileID: 7400000, guid: 9454406d93cb2b04b8193062f8dd7b54, type: 2}
+  - target: {fileID: 0}
+    propertyPath: LeftEyePoses.Array.data[7]
+    value: 
+    objectReference: {fileID: 7400000, guid: e383d2ff279d482468b62334cb6f3286, type: 2}
+  - target: {fileID: 0}
+    propertyPath: LeftEyePoses.Array.data[8]
+    value: 
+    objectReference: {fileID: 7400000, guid: b55cc826f3f832b4ebcd42f54f7eca2d, type: 2}
+  - target: {fileID: 0}
+    propertyPath: RightEyePoses.Array.size
+    value: 9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: RightEyePoses.Array.data[0]
+    value: 
+    objectReference: {fileID: 7400000, guid: 5c80576ab27dbd945877b5f3cef4507d, type: 2}
+  - target: {fileID: 0}
+    propertyPath: RightEyePoses.Array.data[1]
+    value: 
+    objectReference: {fileID: 7400000, guid: d4e664513d9ec844fa13b7defc63e1df, type: 2}
+  - target: {fileID: 0}
+    propertyPath: RightEyePoses.Array.data[2]
+    value: 
+    objectReference: {fileID: 7400000, guid: 08552aea481b1c24fb830ce5d7a3f39c, type: 2}
+  - target: {fileID: 0}
+    propertyPath: RightEyePoses.Array.data[3]
+    value: 
+    objectReference: {fileID: 7400000, guid: 8fbba8befe3f2764ba7a1d911e196e73, type: 2}
+  - target: {fileID: 0}
+    propertyPath: RightEyePoses.Array.data[4]
+    value: 
+    objectReference: {fileID: 7400000, guid: cf51b81e7c22ab741a2342c0dbb50eba, type: 2}
+  - target: {fileID: 0}
+    propertyPath: RightEyePoses.Array.data[5]
+    value: 
+    objectReference: {fileID: 7400000, guid: 5c469e0ce68cf7244934d72de20ea51f, type: 2}
+  - target: {fileID: 0}
+    propertyPath: RightEyePoses.Array.data[6]
+    value: 
+    objectReference: {fileID: 7400000, guid: 9454406d93cb2b04b8193062f8dd7b54, type: 2}
+  - target: {fileID: 0}
+    propertyPath: RightEyePoses.Array.data[7]
+    value: 
+    objectReference: {fileID: 7400000, guid: e383d2ff279d482468b62334cb6f3286, type: 2}
+  - target: {fileID: 0}
+    propertyPath: RightEyePoses.Array.data[8]
+    value: 
+    objectReference: {fileID: 7400000, guid: b55cc826f3f832b4ebcd42f54f7eca2d, type: 2}
+  - target: {fileID: 0}
+    propertyPath: mouthPrefix
+    value: exp/mouth/
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: mouthShapeNames.Array.size
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: mouthShapeNames.Array.data[0]
+    value: basis
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: mouthShapeNames.Array.data[1]
+    value: frown
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: mouthShapeNames.Array.data[2]
+    value: smile
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: mouthShapeNames.Array.data[3]
+    value: grimace
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: mouthShapeNames.Array.data[4]
+    value: smile
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: mouthShapeNames.Array.data[5]
+    value: grimace
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: mouthShapeNames.Array.data[6]
+    value: grimace
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: mouthShapeNames.Array.data[7]
+    value: frown
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: browPrefix
+    value: exp/brows/
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: browShapeNames.Array.size
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: browShapeNames.Array.data[0]
+    value: basis
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: browShapeNames.Array.data[1]
+    value: down
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: browShapeNames.Array.data[2]
+    value: up
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: browShapeNames.Array.data[3]
+    value: curious
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: browShapeNames.Array.data[4]
+    value: up
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: browShapeNames.Array.data[5]
+    value: worried
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: browShapeNames.Array.data[6]
+    value: curious
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: browShapeNames.Array.data[7]
+    value: down
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ClothUpperBodyNames.Array.size
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ClothUpperBodyNames.Array.data[0]
+    value: coat
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ClothUpperBodyNames.Array.data[1]
+    value: coat_v2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ClothUpperBodyNames.Array.data[2]
+    value: T-shirt
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ClothLowerBodyNames.Array.size
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ClothLowerBodyNames.Array.data[0]
+    value: jeans
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ClothLowerBodyNames.Array.data[1]
+    value: pants
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ClothLowerBodyNames.Array.data[2]
+    value: shorts
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ClothFootNames.Array.size
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ClothFootNames.Array.data[0]
+    value: shoes
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ClothFootNames.Array.data[1]
+    value: boots
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ClothFootNames.Array.data[2]
+    value: slaps
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: createFaceToggle
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: FaceToggleNames.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ftShapes.Array.size
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ftShapes.Array.data[0]
+    value: JawOpen
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ftShapes.Array.data[1]
+    value: LipFunnel
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ftShapes.Array.data[2]
+    value: LipPucker
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ftShapes.Array.data[3]
+    value: MouthClosed
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ftShapes.Array.data[4]
+    value: MouthUpperUpLeft
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ftShapes.Array.data[5]
+    value: MouthLowerDownLeft
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ftShapes.Array.data[6]
+    value: MouthStretch
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ftShapes.Array.data[7]
+    value: MouthRaiserLower
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ftDualShapes.Array.size
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ftDualShapes.Array.data[0].paramName
+    value: SmileSad
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ftDualShapes.Array.data[0].minShapeName
+    value: MouthSad
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ftDualShapes.Array.data[0].maxShapeName
+    value: MouthSmile
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ftDualShapes.Array.data[0].minValue
+    value: -1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ftDualShapes.Array.data[0].neutralValue
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ftDualShapes.Array.data[0].maxValue
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ftDualShapes.Array.data[1].paramName
+    value: BrowExpressionLeft
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ftDualShapes.Array.data[1].minShapeName
+    value: BrowDown
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ftDualShapes.Array.data[1].maxShapeName
+    value: BrowUp
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ftDualShapes.Array.data[1].minValue
+    value: -1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ftDualShapes.Array.data[1].neutralValue
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ftDualShapes.Array.data[1].maxValue
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ftDualShapes.Array.data[2].paramName
+    value: MouthX
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ftDualShapes.Array.data[2].minShapeName
+    value: MouthLeft
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ftDualShapes.Array.data[2].maxShapeName
+    value: MouthRight
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ftDualShapes.Array.data[2].minValue
+    value: -1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ftDualShapes.Array.data[2].neutralValue
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ftDualShapes.Array.data[2].maxValue
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ftDualShapes.Array.data[3].paramName
+    value: JawX
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ftDualShapes.Array.data[3].minShapeName
+    value: JawLeft
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ftDualShapes.Array.data[3].maxShapeName
+    value: JawRight
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ftDualShapes.Array.data[3].minValue
+    value: -1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ftDualShapes.Array.data[3].neutralValue
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ftDualShapes.Array.data[3].maxValue
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ftDualShapes.Array.data[4].paramName
+    value: EyeLidLeft
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ftDualShapes.Array.data[4].minShapeName
+    value: EyeClosed
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ftDualShapes.Array.data[4].maxShapeName
+    value: EyeWide
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ftDualShapes.Array.data[4].minValue
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ftDualShapes.Array.data[4].neutralValue
+    value: 0.75
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ftDualShapes.Array.data[4].maxValue
+    value: 1
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []

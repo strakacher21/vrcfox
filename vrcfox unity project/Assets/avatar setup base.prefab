@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4518591562910165926}
   - component: {fileID: 7746804780396034587}
+  - component: {fileID: 9075547024416073146}
   - component: {fileID: 8116406995935481988}
-  - component: {fileID: 5824838411998035675}
   - component: {fileID: 6413712765106864611}
   m_Layer: 0
   m_Name: avatar setup base
@@ -57,7 +57,7 @@ MonoBehaviour:
     loadStored: 0
     isRemote: 0
     vrMode: 0
---- !u!114 &8116406995935481988
+--- !u!114 &9075547024416073146
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -66,93 +66,40 @@ MonoBehaviour:
   m_GameObject: {fileID: 4518591562910165925}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a3d8784fab18d24c80d9291d424261f, type: 3}
+  m_Script: {fileID: 11500000, guid: a5233619ea40ff14a8f36911e534b24d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thumbnailTexture: {fileID: 2800000, guid: 36ccfa0960f18234d89c19053cc06c94, type: 3}
---- !u!114 &5824838411998035675
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4518591562910165925}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f6fef40173b344a40bf1466cc9c93393, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  assetContainer: {fileID: 9100000, guid: a33c5817a0ccd554595fad701f7d25e6, type: 2}
-  fxMask: {fileID: 31900000, guid: a2a2b3490f538480bbd472b54282c586, type: 2}
-  EyeLeftMask: {fileID: 31900000, guid: 66094741a9a9e9a4eb478890a4125eb4, type: 2}
-  EyeRightMask: {fileID: 31900000, guid: a20dbdd41a7b0424aac0c38f843b59e8, type: 2}
-  gestureMask: {fileID: 31900000, guid: 2c544c8b584d741bdb884b8f910e8b64, type: 2}
-  GestureLeftMask: {fileID: 31900000, guid: ee1051356e14f8141b499385836b02bf, type: 2}
-  GestureRightMask: {fileID: 31900000, guid: 9b02b84ec14cb9941acd896d4a23bb4c, type: 2}
-  MirrorHandposes: 1
-  LeftHandPoses:
-  - {fileID: 7400000, guid: 17f6811ad8fbaec4ba758c0e9d4bc63e, type: 2}
-  - {fileID: 7400000, guid: 9716ac2dc262b524193365c552868456, type: 2}
-  - {fileID: 7400000, guid: 2c53e22680d6f644d8f67bf16fc29e04, type: 2}
-  - {fileID: 7400000, guid: 159b856034800bb4ea0319b1ce4fd8c7, type: 2}
-  - {fileID: 7400000, guid: 2262c43a626a1664cb4a56f5c791c215, type: 2}
-  - {fileID: 7400000, guid: d5884289633c17040b3337766473e5f4, type: 2}
-  - {fileID: 7400000, guid: 17e549f94f6d25f4da19e77f85918ec1, type: 2}
-  - {fileID: 7400000, guid: be1b6b943c973cc44ba8ca84a47f3273, type: 2}
-  RightHandPoses:
-  - {fileID: 7400000, guid: 17f6811ad8fbaec4ba758c0e9d4bc63e, type: 2}
-  - {fileID: 7400000, guid: 9716ac2dc262b524193365c552868456, type: 2}
-  - {fileID: 7400000, guid: 2c53e22680d6f644d8f67bf16fc29e04, type: 2}
-  - {fileID: 7400000, guid: 159b856034800bb4ea0319b1ce4fd8c7, type: 2}
-  - {fileID: 7400000, guid: 2262c43a626a1664cb4a56f5c791c215, type: 2}
-  - {fileID: 7400000, guid: d5884289633c17040b3337766473e5f4, type: 2}
-  - {fileID: 7400000, guid: 17e549f94f6d25f4da19e77f85918ec1, type: 2}
-  - {fileID: 7400000, guid: be1b6b943c973cc44ba8ca84a47f3273, type: 2}
-  createShapePreferences: 1
-  shapePreferenceSliderPrefix: pref/slider/
-  shapePreferenceTogglesPrefix: pref/toggle/
   createClothCustomization: 0
   ClothTogglesPrefix: cloth/toggle/
+  ClothUpperBodyNames:
+  - coat
+  - coat_v2
+  - T-shirt
+  ClothLowerBodyNames:
+  - jeans
+  - pants
+  - shorts
+  ClothFootNames:
+  - shoes
+  - boots
+  - slaps
   createColorCustomization: 1
   primaryColor0: {fileID: 7400000, guid: 8421033fab3bd4941a54cc533287898b, type: 2}
   primaryColor1: {fileID: 7400000, guid: 1ee5d60bcc1f77a47b1e79f2944139e3, type: 2}
   secondColor0: {fileID: 7400000, guid: de7942e8683b2d34ea22c50b83f37f9b, type: 2}
   secondColor1: {fileID: 7400000, guid: b7ba98e9f6ffbba43a2ed420efb56037, type: 2}
-  createFacialExpressionsControl: 1
-  expTrackName: ExpressionTrackingActive
-  createFTLipSyncControl: 1
-  lipSyncName: LipSyncTrackingActive
+  assetContainer: {fileID: 9100000, guid: a33c5817a0ccd554595fad701f7d25e6, type: 2}
+  fxMask: {fileID: 31900000, guid: a2a2b3490f538480bbd472b54282c586, type: 2}
   saveVRCExpressionParameters: 0
   SystemName: vrcfox
-  MirrorFTparams: 1
-  createOSCsmooth: 1
-  localSmoothness: 0.1
-  remoteSmoothness: 0.7
-  createFaceTracking: 1
+  shapePreferenceSliderPrefix: pref/slider/
+  shapePreferenceTogglesPrefix: pref/toggle/
   FullFaceTrackingPrefix: v2/
-  createEyeTracking: 1
-  MirrorEyeposes: 1
-  maxEyeMotionValue: 0.25
-  LeftEyePoses:
-  - {fileID: 7400000, guid: 5c80576ab27dbd945877b5f3cef4507d, type: 2}
-  - {fileID: 7400000, guid: d4e664513d9ec844fa13b7defc63e1df, type: 2}
-  - {fileID: 7400000, guid: 08552aea481b1c24fb830ce5d7a3f39c, type: 2}
-  - {fileID: 7400000, guid: 8fbba8befe3f2764ba7a1d911e196e73, type: 2}
-  - {fileID: 7400000, guid: cf51b81e7c22ab741a2342c0dbb50eba, type: 2}
-  - {fileID: 7400000, guid: 5c469e0ce68cf7244934d72de20ea51f, type: 2}
-  - {fileID: 7400000, guid: 9454406d93cb2b04b8193062f8dd7b54, type: 2}
-  - {fileID: 7400000, guid: e383d2ff279d482468b62334cb6f3286, type: 2}
-  - {fileID: 7400000, guid: b55cc826f3f832b4ebcd42f54f7eca2d, type: 2}
-  RightEyePoses:
-  - {fileID: 7400000, guid: 5c80576ab27dbd945877b5f3cef4507d, type: 2}
-  - {fileID: 7400000, guid: d4e664513d9ec844fa13b7defc63e1df, type: 2}
-  - {fileID: 7400000, guid: 08552aea481b1c24fb830ce5d7a3f39c, type: 2}
-  - {fileID: 7400000, guid: 8fbba8befe3f2764ba7a1d911e196e73, type: 2}
-  - {fileID: 7400000, guid: cf51b81e7c22ab741a2342c0dbb50eba, type: 2}
-  - {fileID: 7400000, guid: 5c469e0ce68cf7244934d72de20ea51f, type: 2}
-  - {fileID: 7400000, guid: 9454406d93cb2b04b8193062f8dd7b54, type: 2}
-  - {fileID: 7400000, guid: e383d2ff279d482468b62334cb6f3286, type: 2}
-  - {fileID: 7400000, guid: b55cc826f3f832b4ebcd42f54f7eca2d, type: 2}
+  createFaceToggle: 0
+  GestureExpressionsBlockParamNames:
+  - contact/confuse
+  createFacialExpressionsControl: 1
+  expTrackName: ExpressionTrackingActive
   mouthPrefix: exp/mouth/
   mouthShapeNames:
   - basis
@@ -173,60 +120,128 @@ MonoBehaviour:
   - worried
   - curious
   - down
-  ClothUpperBodyNames:
-  - coat
-  - coat_v2
-  - T-shirt
-  ClothLowerBodyNames:
-  - jeans
-  - pants
-  - shorts
-  ClothFootNames:
-  - shoes
-  - boots
-  - slaps
-  createFaceToggle: 0
+  createEyeTracking: 1
+  UseSameEyeAnimationsForBothEyes: 1
+  maxEyeMotionValue: 0.7
+  EyeLeftMask: {fileID: 31900000, guid: 66094741a9a9e9a4eb478890a4125eb4, type: 2}
+  EyeRightMask: {fileID: 31900000, guid: a20dbdd41a7b0424aac0c38f843b59e8, type: 2}
+  LeftEyePoses:
+  - {fileID: 7400000, guid: 5c80576ab27dbd945877b5f3cef4507d, type: 2}
+  - {fileID: 7400000, guid: d4e664513d9ec844fa13b7defc63e1df, type: 2}
+  - {fileID: 7400000, guid: 08552aea481b1c24fb830ce5d7a3f39c, type: 2}
+  - {fileID: 7400000, guid: 8fbba8befe3f2764ba7a1d911e196e73, type: 2}
+  - {fileID: 7400000, guid: cf51b81e7c22ab741a2342c0dbb50eba, type: 2}
+  - {fileID: 7400000, guid: 5c469e0ce68cf7244934d72de20ea51f, type: 2}
+  - {fileID: 7400000, guid: 9454406d93cb2b04b8193062f8dd7b54, type: 2}
+  - {fileID: 7400000, guid: e383d2ff279d482468b62334cb6f3286, type: 2}
+  - {fileID: 7400000, guid: b55cc826f3f832b4ebcd42f54f7eca2d, type: 2}
+  RightEyePoses:
+  - {fileID: 7400000, guid: 5c80576ab27dbd945877b5f3cef4507d, type: 2}
+  - {fileID: 7400000, guid: d4e664513d9ec844fa13b7defc63e1df, type: 2}
+  - {fileID: 7400000, guid: 08552aea481b1c24fb830ce5d7a3f39c, type: 2}
+  - {fileID: 7400000, guid: 8fbba8befe3f2764ba7a1d911e196e73, type: 2}
+  - {fileID: 7400000, guid: cf51b81e7c22ab741a2342c0dbb50eba, type: 2}
+  - {fileID: 7400000, guid: 5c469e0ce68cf7244934d72de20ea51f, type: 2}
+  - {fileID: 7400000, guid: 9454406d93cb2b04b8193062f8dd7b54, type: 2}
+  - {fileID: 7400000, guid: e383d2ff279d482468b62334cb6f3286, type: 2}
+  - {fileID: 7400000, guid: b55cc826f3f832b4ebcd42f54f7eca2d, type: 2}
   FaceToggleNames: []
-  ftShapes:
-  - JawOpen
-  - LipFunnel
-  - LipPucker
-  - MouthClosed
-  - MouthUpperUpLeft
-  - MouthLowerDownLeft
-  - MouthStretch
-  - MouthRaiserLower
-  ftDualShapes:
+  createFaceTracking: 1
+  MirrorFTparams: 0
+  createFTLipSyncControl: 1
+  lipSyncName: LipSyncTrackingActive
+  SingleFtShapes:
+  - shapeName: JawOpen
+    leftAndRightShapes: 0
+  - shapeName: LipFunnel
+    leftAndRightShapes: 0
+  - shapeName: LipPucker
+    leftAndRightShapes: 0
+  - shapeName: MouthClosed
+    leftAndRightShapes: 0
+  - shapeName: MouthUpperUp
+    leftAndRightShapes: 1
+  - shapeName: MouthLowerDown
+    leftAndRightShapes: 1
+  - shapeName: MouthStretch
+    leftAndRightShapes: 0
+  - shapeName: MouthRaiserLower
+    leftAndRightShapes: 0
+  DualFtShapes:
   - paramName: SmileSad
     minShapeName: MouthSad
     maxShapeName: MouthSmile
     minValue: -1
     neutralValue: 0
     maxValue: 1
-  - paramName: BrowExpressionLeft
+    leftAndRightShapes: 0
+  - paramName: BrowExpression
     minShapeName: BrowDown
     maxShapeName: BrowUp
     minValue: -1
     neutralValue: 0
     maxValue: 1
-  - paramName: MouthX
-    minShapeName: MouthLeft
-    maxShapeName: MouthRight
-    minValue: -1
-    neutralValue: 0
-    maxValue: 1
+    leftAndRightShapes: 1
   - paramName: JawX
     minShapeName: JawLeft
     maxShapeName: JawRight
     minValue: -1
     neutralValue: 0
     maxValue: 1
-  - paramName: EyeLidLeft
+    leftAndRightShapes: 0
+  - paramName: MouthX
+    minShapeName: MouthLeft
+    maxShapeName: MouthRight
+    minValue: -1
+    neutralValue: 0
+    maxValue: 1
+    leftAndRightShapes: 0
+  - paramName: EyeLid
     minShapeName: EyeClosed
     maxShapeName: EyeWide
     minValue: 0
     neutralValue: 0.75
     maxValue: 1
+    leftAndRightShapes: 1
+  gestureMask: {fileID: 31900000, guid: 2c544c8b584d741bdb884b8f910e8b64, type: 2}
+  GestureLeftMask: {fileID: 31900000, guid: ee1051356e14f8141b499385836b02bf, type: 2}
+  GestureRightMask: {fileID: 31900000, guid: 9b02b84ec14cb9941acd896d4a23bb4c, type: 2}
+  UseSameHandAnimationsForBothHands: 0
+  LeftHandPoses:
+  - {fileID: 7400000, guid: 17f6811ad8fbaec4ba758c0e9d4bc63e, type: 2}
+  - {fileID: 7400000, guid: 9716ac2dc262b524193365c552868456, type: 2}
+  - {fileID: 7400000, guid: 2c53e22680d6f644d8f67bf16fc29e04, type: 2}
+  - {fileID: 7400000, guid: 159b856034800bb4ea0319b1ce4fd8c7, type: 2}
+  - {fileID: 7400000, guid: 3aa497f16b019ee4cbfa4e0a5cd5f98c, type: 2}
+  - {fileID: 7400000, guid: 21778a9afd428014e9d0e351ad5a1c40, type: 2}
+  - {fileID: 7400000, guid: 17e549f94f6d25f4da19e77f85918ec1, type: 2}
+  - {fileID: 7400000, guid: be1b6b943c973cc44ba8ca84a47f3273, type: 2}
+  RightHandPoses:
+  - {fileID: 7400000, guid: 17f6811ad8fbaec4ba758c0e9d4bc63e, type: 2}
+  - {fileID: 7400000, guid: 9716ac2dc262b524193365c552868456, type: 2}
+  - {fileID: 7400000, guid: 2c53e22680d6f644d8f67bf16fc29e04, type: 2}
+  - {fileID: 7400000, guid: 159b856034800bb4ea0319b1ce4fd8c7, type: 2}
+  - {fileID: 7400000, guid: 2262c43a626a1664cb4a56f5c791c215, type: 2}
+  - {fileID: 7400000, guid: d5884289633c17040b3337766473e5f4, type: 2}
+  - {fileID: 7400000, guid: 17e549f94f6d25f4da19e77f85918ec1, type: 2}
+  - {fileID: 7400000, guid: be1b6b943c973cc44ba8ca84a47f3273, type: 2}
+  createOSCsmooth: 1
+  localSmoothness: 0.1
+  remoteSmoothness: 0.7
+  createShapePreferences: 1
+--- !u!114 &8116406995935481988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4518591562910165925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a3d8784fab18d24c80d9291d424261f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thumbnailTexture: {fileID: 2800000, guid: 36ccfa0960f18234d89c19053cc06c94, type: 3}
 --- !u!114 &6413712765106864611
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -239,7 +254,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0722284fee9817b45ac70aa8393037e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  config: {fileID: 11400000, guid: 542e5c5b9a345a04886c6bb57342fc5e, type: 2}
+  config: {fileID: 11400000, guid: 643071a0c38b8154faff349944519215, type: 2}
 --- !u!1001 &556617311820632454
 PrefabInstance:
   m_ObjectHideFlags: 0
