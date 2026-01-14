@@ -96,8 +96,7 @@ MonoBehaviour:
   shapePreferenceTogglesPrefix: pref/toggle/
   FullFaceTrackingPrefix: v2/
   createFaceToggle: 0
-  GestureExpressionsBlockParamNames:
-  - contact/confuse
+  GestureExpressionsBlockParamNames: []
   createFacialExpressionsControl: 1
   expTrackName: ExpressionTrackingActive
   mouthPrefix: exp/mouth/
