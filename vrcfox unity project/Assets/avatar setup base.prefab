@@ -96,7 +96,6 @@ MonoBehaviour:
   shapePreferenceTogglesPrefix: pref/toggle/
   FullFaceTrackingPrefix: v2/
   GestureExpressionsBlockParamNames:
-  - v2/ExpressionTrackingActive
   - AFK
   createFacialExpressionsControl: 1
   expTrackName: ExpressionTrackingActive
@@ -155,7 +154,7 @@ MonoBehaviour:
   - AFK
   createFaceTracking: 1
   MirrorFTparams: 0
-  createFTLipSyncControl: 1
+  createFTLipSyncControl: 0
   lipSyncName: LipSyncTrackingActive
   FaceTrackingBlockParamNames:
   - AFK

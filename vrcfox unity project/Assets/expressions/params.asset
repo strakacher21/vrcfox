@@ -34,11 +34,6 @@ MonoBehaviour:
     saved: 1
     defaultValue: 0
     networkSynced: 1
-  - name: v2/LipSyncTrackingActive
-    valueType: 2
-    saved: 1
-    defaultValue: 0
-    networkSynced: 1
   - name: v2/JawOpen
     valueType: 1
     saved: 0
