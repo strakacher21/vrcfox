@@ -96,6 +96,7 @@ public partial class AnimatorWizard : MonoBehaviour
         return result;
     }
 
+
     protected static string StripSide(string str)
     {
         if (str.EndsWith(Right)) return str.Substring(0, str.Length - Right.Length);

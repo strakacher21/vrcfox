@@ -119,47 +119,47 @@ MonoBehaviour:
     saved: 0
     defaultValue: 0
     networkSynced: 1
-  - name: pref/slider/pcol
+  - name: pref/color/Body/slider/pcol
     valueType: 1
     saved: 1
     defaultValue: 0
     networkSynced: 1
-  - name: pref/slider/scol
+  - name: pref/color/Body/slider/scol
     valueType: 1
     saved: 1
     defaultValue: 0
     networkSynced: 1
-  - name: pref/toggle/breasts
+  - name: pref/body/float/ears
+    valueType: 1
+    saved: 1
+    defaultValue: 0
+    networkSynced: 1
+  - name: pref/body/float/fluff
+    valueType: 1
+    saved: 1
+    defaultValue: 0
+    networkSynced: 1
+  - name: pref/body/bool/lashes
     valueType: 2
     saved: 1
     defaultValue: 0
     networkSynced: 1
-  - name: pref/slider/torso
-    valueType: 1
-    saved: 1
-    defaultValue: 0
-    networkSynced: 1
-  - name: pref/slider/thighs
-    valueType: 1
-    saved: 1
-    defaultValue: 0
-    networkSynced: 1
-  - name: pref/slider/arms
-    valueType: 1
-    saved: 1
-    defaultValue: 0
-    networkSynced: 1
-  - name: pref/toggle/lashes
+  - name: pref/body/bool/breasts
     valueType: 2
     saved: 1
     defaultValue: 0
     networkSynced: 1
-  - name: pref/slider/fluff
+  - name: pref/body/float/thighs
     valueType: 1
     saved: 1
     defaultValue: 0
     networkSynced: 1
-  - name: pref/slider/ears
+  - name: pref/body/float/torso
+    valueType: 1
+    saved: 1
+    defaultValue: 0
+    networkSynced: 1
+  - name: pref/body/float/arms
     valueType: 1
     saved: 1
     defaultValue: 0
