@@ -53,7 +53,9 @@ MonoBehaviour:
     favourite: {fileID: 0}
     initialPose: 0
     userIndex: 0
+    cullingDistance: 0
     isOnFriendsList: 0
+    simulateCulling: 0
     loadStored: 0
     isRemote: 0
     vrMode: 0
@@ -90,9 +92,11 @@ MonoBehaviour:
     primaryColor1: {fileID: 7400000, guid: 1ee5d60bcc1f77a47b1e79f2944139e3, type: 2}
     secondColor0: {fileID: 7400000, guid: de7942e8683b2d34ea22c50b83f37f9b, type: 2}
     secondColor1: {fileID: 7400000, guid: b7ba98e9f6ffbba43a2ed420efb56037, type: 2}
+  createParamsCompressor: 1
+  compressedParamEntries: []
   assetContainer: {fileID: 9100000, guid: a33c5817a0ccd554595fad701f7d25e6, type: 2}
   fxMask: {fileID: 31900000, guid: a2a2b3490f538480bbd472b54282c586, type: 2}
-  saveVRCExpressionParameters: 0
+  saveVRCExpressionParameters: 1
   SystemName: vrcfox
   shapePreferenceSliderPrefix: pref/slider/
   shapePreferenceTogglesPrefix: pref/toggle/
