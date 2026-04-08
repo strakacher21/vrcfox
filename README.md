@@ -33,9 +33,9 @@ The Unity project contains an 'avatar setup base' prefab and two scenes for Ques
 The Unity project also includes a script (attached to the avatar prefab) to easily customize facial expressions, player preferences, and facetracking features. You can disable some features to save on VRChat parameter budget or add your own blendshapes for expressions, body customization, clothing toggles, facetracking, etc.
 
 ## Attribution
-AnimatorWizard script uses the [v3-animator-as-code](https://github.com/hai-vr/av3-animator-as-code) [(hai-vr)](https://github.com/hai-vr) package to set up animators. 
+AnimatorWizard script uses the [v3-animator-as-code](https://github.com/hai-vr/av3-animator-as-code) [(hai-vr)](https://github.com/hai-vr) package to set up animators.
 
-OSC Smooth in AnimatorWizard is based on the ideas behind [OSCmooth](https://github.com/regzo2/OSCmooth) [(regzo2)](https://github.com/regzo2), and Parameter Compressor is based on the ideas behind [LauraParamCompressor](https://github.com/LauraRozier/LauraParamCompressor) [(LauraRozier)](https://github.com/LauraRozier).
+Parameter Compressor is based on the ideas behind [LauraParamCompressor](https://github.com/LauraRozier/LauraParamCompressor) [(LauraRozier)](https://github.com/LauraRozier).
 
 Also uses parts of [VRLabs Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) [(AnimatorCloner)](https://github.com/VRLabs/Avatars-3.0-Manager/blob/main/Editor/AnimatorCloner.cs) to “reset” AnimatorWizard-generated FX/Gesture/Additive controllers and remove hidden garbage that accumulates in animator assets over time.
 
