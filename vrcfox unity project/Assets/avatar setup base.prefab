@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4518591562910165926}
   - component: {fileID: 7746804780396034587}
-  - component: {fileID: 9075547024416073146}
+  - component: {fileID: 3089064156769383688}
   - component: {fileID: 8116406995935481988}
   - component: {fileID: 6413712765106864611}
   m_Layer: 0
@@ -59,7 +59,7 @@ MonoBehaviour:
     loadStored: 0
     isRemote: 0
     vrMode: 0
---- !u!114 &9075547024416073146
+--- !u!114 &3089064156769383688
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -68,23 +68,37 @@ MonoBehaviour:
   m_GameObject: {fileID: 4518591562910165925}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a5233619ea40ff14a8f36911e534b24d, type: 3}
+  m_Script: {fileID: 11500000, guid: 596ea5619628d5a4cbf2567f60f659a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   createClothCustomization: 0
-  ClothTogglesPrefix: cloth/toggle/
-  ClothUpperBodyNames:
-  - coat
-  - coat_v2
-  - T-shirt
-  ClothLowerBodyNames:
-  - jeans
-  - pants
-  - shorts
-  ClothFootNames:
-  - shoes
-  - boots
-  - slaps
+  ClothSyncParamsOptimizedAlgorithm: 1
+  ClothTogglesPrefix: cloth/
+  ClothGroups:
+  - layerName: cloth_upper_body
+    clothEntries:
+    - clothName: coat
+      invertAnimation: 0
+    - clothName: coat_v2
+      invertAnimation: 0
+    - clothName: T-shirt
+      invertAnimation: 0
+  - layerName: cloth_lower_body
+    clothEntries:
+    - clothName: jeans
+      invertAnimation: 0
+    - clothName: pants
+      invertAnimation: 0
+    - clothName: shorts
+      invertAnimation: 0
+  - layerName: cloth_foot
+    clothEntries:
+    - clothName: shoes
+      invertAnimation: 0
+    - clothName: boots
+      invertAnimation: 0
+    - clothName: slaps
+      invertAnimation: 0
   createColorCustomization: 1
   ColorProfiles:
   - name: Body
@@ -103,7 +117,7 @@ MonoBehaviour:
   FullFaceTrackingPrefix: v2/
   GestureExpressionsBlockParamNames:
   - AFK
-  createFacialExpressionsControl: 1
+  createFacialExpressionsControl: 0
   expTrackName: ExpressionTrackingActive
   mouthPrefix: exp/mouth/
   mouthShapeNames:
@@ -128,8 +142,8 @@ MonoBehaviour:
   createEyeTracking: 1
   UseSameEyeAnimationsForBothEyes: 1
   maxEyeMotionValue: 0.5
-  EyeLeftMask: {fileID: 31900000, guid: 66094741a9a9e9a4eb478890a4125eb4, type: 2}
-  EyeRightMask: {fileID: 31900000, guid: a20dbdd41a7b0424aac0c38f843b59e8, type: 2}
+  EyeLeftMask: {fileID: 31900000, guid: 45644a7b3d70e534bbd071d3e9e44f06, type: 2}
+  EyeRightMask: {fileID: 31900000, guid: 2582de0dc419e5940b571a39c532e553, type: 2}
   LeftEyePoses:
   - {fileID: 7400000, guid: 5c80576ab27dbd945877b5f3cef4507d, type: 2}
   - {fileID: 7400000, guid: d4e664513d9ec844fa13b7defc63e1df, type: 2}
@@ -140,16 +154,7 @@ MonoBehaviour:
   - {fileID: 7400000, guid: 9454406d93cb2b04b8193062f8dd7b54, type: 2}
   - {fileID: 7400000, guid: e383d2ff279d482468b62334cb6f3286, type: 2}
   - {fileID: 7400000, guid: b55cc826f3f832b4ebcd42f54f7eca2d, type: 2}
-  RightEyePoses:
-  - {fileID: 7400000, guid: 5c80576ab27dbd945877b5f3cef4507d, type: 2}
-  - {fileID: 7400000, guid: d4e664513d9ec844fa13b7defc63e1df, type: 2}
-  - {fileID: 7400000, guid: 08552aea481b1c24fb830ce5d7a3f39c, type: 2}
-  - {fileID: 7400000, guid: 8fbba8befe3f2764ba7a1d911e196e73, type: 2}
-  - {fileID: 7400000, guid: cf51b81e7c22ab741a2342c0dbb50eba, type: 2}
-  - {fileID: 7400000, guid: 5c469e0ce68cf7244934d72de20ea51f, type: 2}
-  - {fileID: 7400000, guid: 9454406d93cb2b04b8193062f8dd7b54, type: 2}
-  - {fileID: 7400000, guid: e383d2ff279d482468b62334cb6f3286, type: 2}
-  - {fileID: 7400000, guid: b55cc826f3f832b4ebcd42f54f7eca2d, type: 2}
+  RightEyePoses: []
   EyeTrackingBlockParamNames:
   - AFK
   createFaceToggle: 0
